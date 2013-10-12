@@ -20,7 +20,7 @@ Example
 ```go
 package main
 
-import "jsonrpc"
+import "github.com/DerekXiao/golang-rpc-json/jsonrpc"
 
 func main(){
 	rpcserver := new(jsonrpc.JsonRpcServer)

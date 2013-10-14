@@ -2,7 +2,7 @@ golang-rpc-json
 ===============
 
 A json-rpc server implement by Google GO.
-Version 0.1
+
 
 Document
 ===============

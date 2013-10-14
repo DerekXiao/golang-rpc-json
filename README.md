@@ -9,10 +9,10 @@ Document
 If you registe a swap function to swap two integers.
 
 The request should be a jsonarray like this :
-[{"ID":123 , "MethodName":"swap" , "Param":[{"ParamType":"int","ParamValue":9} , {"ParamType":"int","ParamValue":8}]}]
+$[{"ID":123 , "MethodName":"swap" , "Param":[{"ParamType":"int","ParamValue":9} , {"ParamType":"int","ParamValue":8}]}]#
 
 And the response will be a jsonarray like this :
-[{"ID":123 , "MethodName":"swap" , "Error" : null , "Param":[{"ParamType":"int","ParamValue":8} , {"ParamType":"int","ParamValue":9}]}]
+$[{"ID":123 , "MethodName":"swap" , "Error" : null , "Param":[{"ParamType":"int","ParamValue":8} , {"ParamType":"int","ParamValue":9}]}]#
 
 "Error" in the response will not be null if errs occured in this remote function call.
 

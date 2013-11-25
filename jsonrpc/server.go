@@ -11,19 +11,6 @@ import (
 	"strconv"
 )
 
-// func main() {
-// 	m := make(map[string]interface{})
-// 	m["first"] = test
-// 	v := reflect.ValueOf(m["first"])
-// 	err := v.Call([]reflect.Value{reflect.ValueOf("imf"), reflect.ValueOf(1)})
-// 	if err != nil {
-// 		fmt.Println(err)
-// 	}
-// }
-
-// func test(i int, s string) {
-// 	fmt.Println(s, i)
-// }
 
 type JsonRpcServer struct {
 	Port        string
